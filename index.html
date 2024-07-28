@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Aplicación Web</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="bg-gray-100">
+
+  <header class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto">
+      <h1 class="text-3xl">Header</h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-4">
+    <div class="flex flex-row">
+      <!-- Bloques de Texto -->
+      <div class="w-full md:w-1/3 space-y-4 mb-4">
+        <div class="bg-purple-400 p-4">Txt 1</div>
+        <div class="bg-purple-400 p-4">Txt 2</div>
+        <div class="bg-purple-400 p-4">Txt 3</div>
+        <div class="bg-purple-400 p-4 md:hidden">Txt 4</div>
+        <div class="bg-purple-400 p-4 md:hidden lg:hidden">Txt 5</div>
+        <div class="bg-purple-400 p-4 hidden sm:block md:hidden lg:hidden">Txt 6</div>
+      </div>
+      <!-- Imágenes -->
+      <div class="w-full md:w-2/3 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+        <img src="images/img1.jpg" alt="Imagen 1" class="w-full sm:w-1/2 sm:h-full  md:h-1/2 md:w-full lg:w-1/2 object-cover">
+        <img src="images/img2.png" alt="Imagen 2" class="w-full md:h-48 object-cover hidden sm:hidden lg:block">
+      </div>
+    </div>
+    <div class="w-full md:w-2/3 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+        <img src="images/img2.png" alt="Imagen 2" class="w-full md:h-48 object-cover sm:hidden lg:hidden md:hidden">
+      </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white p-4 text-center">
+    <p>&copy; 2024 Mi Aplicación Web</p>
+  </footer>
+
+</body>
+</html>
